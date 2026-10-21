@@ -1,0 +1,1 @@
+let reponse = prompt("En quelle année sommes-nous ?")
