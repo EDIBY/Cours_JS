@@ -1,7 +1,7 @@
-let epargne = 4000
-let compteurepargne = 1
+let epargne = 4000 \\ montant epargné chaque semaine
+let compteuresemaine = 1 \\ compte les semaines
 while (epargne <=50000) {
-    compteurepargne = compteurepargne + 1;
-    epargne += 4000;
+    compteuresemaine = compteuresemaine + 1; \\ ajoute une semaine
+    epargne += 4000; \\ ajoute l'épargne de la semaine
 }
-console.log(`le nombre de semaine est : ${compteurepargne}.`);
+console.log(`le nombre de semaine est : ${compteuresemaine}.`); \\ affiche le nombre de semaines nécessaires pour atteindre 50 000
